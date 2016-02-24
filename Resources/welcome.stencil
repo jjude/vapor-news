@@ -1,0 +1,15 @@
+{% include "includes/header.stencil" %}
+
+
+		<nav class="main">
+			<ul>
+				<li>Examples: </li>
+				<li><a href="json">JSON</a></li>
+				<li><a href="data/5?query=test">Request Data</a></li>
+				<li><a href="session">Session</a></li>
+				<li><a href="stencil">Stencil</a></li>
+			</ul>
+		</nav>
+	</div>
+
+{% include "includes/footer.stencil" %}

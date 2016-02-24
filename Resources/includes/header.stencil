@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vapor News</title>
+
+	<link rel="stylesheet" href="/styles/app.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<header class="main">
+			<h1 id="logo">Vapor News</h1>
+			<nav class="main">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/articles/create">Submit</a></li>
+				</ul>
+			</nav>
+		</header>

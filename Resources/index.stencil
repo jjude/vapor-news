@@ -1,0 +1,11 @@
+{% include "includes/header.stencil" %}
+
+<div class="articles">
+	{% for article in articles %}
+	<div class="article">
+		<a href="/articles/{{ article.id}}">{{ article.title }}</a>
+	</div>
+	{% endfor %}
+</div>
+
+{% include "includes/footer.stencil" %}

@@ -1,0 +1,10 @@
+{% include "includes/header.stencil" %}
+
+<h1>Submit a link</h1>
+
+<form action="/articles" method="POST">
+	<input type="url" placeholder="link" name="url">
+	<button>Submit</button>
+</form>
+
+{% include "includes/footer.stencil" %}
